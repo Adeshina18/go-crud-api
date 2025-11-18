@@ -16,6 +16,7 @@ func main() {
 	r := gin.Default()
 
 	routes.PostRoute(r)
+	routes.UserRoute(r)
 
 	r.Run()
 }
